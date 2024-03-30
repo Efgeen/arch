@@ -9,6 +9,13 @@
 
 #### [GnuPG](https://wiki.archlinux.org/title/GnuPG)
 ```
+todo: this
+y=2024
+m=03
+d=29
+curl https://archlinux.org/iso/<y>.<m>.<d>/archlinux-<y>.<m>.<d>-x86_64.iso.sig
+```
+```
 gpg --keyserver-options auto-key-retrieve --verify archlinux-<version>-x86_64.iso.sig
 ```
 #### Arch Linux
